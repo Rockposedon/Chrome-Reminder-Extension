@@ -10,15 +10,18 @@ Stay organized with notifications and snooze functionality for a seamless experi
 - Multiple reminder requests are managed efficiently.
 
 # Clone the repository
+```bash
 git clone https://github.com/Rockposedon/Chrome-Reminder-Extension.git
+```
 
 # Navigate to the extension folder
+```bash
 cd reminder-extension
+```
 
-# Open Chrome and go to chrome://extensions/
-# Enable "Developer mode" in the top right corner.
-
-# Click "Load unpacked" and select the extension folder.
+- Open Chrome and go to chrome://extensions/
+- Enable "Developer mode" in the top right corner.
+- Click "Load unpacked" and select the extension folder.
 
 
 ## Usage
