@@ -1,5 +1,6 @@
 # Chrome Reminder-Extension
-"Reminder-Plugin" is a Chrome extension that allows users to set and manage reminders effortlessly. Stay organized with notifications and snooze functionality for a seamless experience
+"Reminder-Plugin" is a Chrome extension that allows users to set and manage reminders effortlessly.
+Stay organized with notifications and snooze functionality for a seamless experience
 
 ## Features
 
@@ -9,7 +10,7 @@
 - Multiple reminder requests are managed efficiently.
 
 # Clone the repository
-git clone https://github.com/your-username/reminder-extension.git
+git clone https://github.com/Rockposedon/Chrome-Reminder-Extension.git
 
 # Navigate to the extension folder
 cd reminder-extension
