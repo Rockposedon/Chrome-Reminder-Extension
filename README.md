@@ -9,6 +9,23 @@ Stay organized with notifications and snooze functionality for a seamless experi
 - Snooze reminders for 10 minutes.
 - Multiple reminder requests are managed efficiently.
 
+## Directory Structure
+
+```plaintext
+reminder-extension/
+|-- images/
+|   |-- icon16.png
+|   |-- icon48.png
+|   |-- icon64.png
+|-- audio/
+|   |-- audio1.mp3
+|-- popup.html
+|-- popup.js
+|-- background.js
+|-- manifest.json
+|-- README.md
+```
+
 # Clone the repository
 ```bash
 git clone https://github.com/Rockposedon/Chrome-Reminder-Extension.git
