@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reminder Extension</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Create a Reminder</h2>
+    <div id="message" class="message"></div>
+    <div class="form-group">
+      <label for="reminder-text">Set a reminder:</label>
+      <input type="text" id="reminder-text" class="form-control" placeholder="e.g: Remind me to drink water in 1 minute">
+    </div>
+    <button class="btn" id="set-reminder-button">Set Reminder</button>
+    <button class="btn" id="snooze-button" style="display: none;">Snooze for 10 Minutes</button>
+    <button class="btn" id="reminder-list-button">Reminder List</button>
+  </div>
+
+  <div id="reminder-list-container" class="reminder-list-container" style="display: none;">
+    <h3>Reminder List</h3>
+    <ul id="reminder-list" class="reminder-list"></ul>
+  </div>
+
+  <audio id="reminder-audio">
+    <source src="audio1.mp3">
+    Your browser does not support the audio element.
+  </audio>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
+
